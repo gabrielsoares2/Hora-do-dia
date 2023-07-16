@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hora do Dia</title>
+
+	<style>
+		
+		div#tudo {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+
+		div#rel {
+			background-color: white;
+			width: 450px;
+			height: 250px;
+			border-radius: 20px;
+			box-shadow: 5px 5px 10px rgba(0, 0, 0, 1.0);
+		}
+
+		p {
+			text-align: center;
+		}
+
+		div#fot {
+			text-align: center;
+		}
+
+	</style>
+
+</head>
+<body id='t'>
+
+	<div id='tudo'>
+		
+		<header>
+			<h1>Hora do Dia</h1>
+		</header>
+
+		<section>
+			<div id='rel'>
+				<p>Agora são <b id='hora'></b> horas</p>
+				<div id='fot'>
+				
+				</div>
+			</div>
+		</section>
+		
+		<footer>
+			<p><i>&copy; Biel</i></p>
+		</footer>
+	</div>
+
+	<script src="hora.js"></script>
+
+</body>
+</html>
